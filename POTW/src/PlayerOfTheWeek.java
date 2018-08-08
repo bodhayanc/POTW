@@ -9,7 +9,7 @@ public class PlayerOfTheWeek {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://coloradocricket.org:3306/colorad2_db1",
-					"colorad2_db1", "fBCwg=UAESP");
+					"colorad2_rouser", "f)R_HWjrwdIW");
 			Statement stmt = con.createStatement();
 			System.out.println("[b]Honorable mentions[/b]\n");
 			ResultSet rs = stmt.executeQuery(
